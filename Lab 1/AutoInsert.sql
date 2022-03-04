@@ -1,7 +1,7 @@
 Use TRANS;
 
 go
-Create Procedure AI_ORDERS AS
+Create or Alter Procedure AI_ORDERS AS
 Begin
 DECLARE 
 		@CustomerName varchar(300),
@@ -11,7 +11,7 @@ DECLARE
 		@OrderExec datetime,
 		@number int;
 SET @number = 1;
-While @number <= 10000
+While @number <= 100
 	BEGIN
 	SET @CustomerName = (
 	SELECT c1 AS [text()] FROM (SELECT TOP (1) c1 FROM (SELECT CustomerName from Customer) AS T1(c1) ORDER BY ABS(CHECKSUM(NEWID())) ) AS T2 FOR XML PATH('')
@@ -35,5 +35,3 @@ While @number <= 10000
 End;
 
 EXECUTE AI_ORDERS;
-
-

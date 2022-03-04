@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.SqlServer.Types;
+using System;
 using System.Collections.Generic;
 
 #nullable disable
@@ -14,6 +15,7 @@ namespace Lab2.Models
 
         public int Id { get; set; }
         public string CityName { get; set; }
+        public SqlGeography Point { get; set; }
 
     }
 }

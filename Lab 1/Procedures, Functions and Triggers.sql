@@ -86,7 +86,7 @@ STMT varchar(20) check (STMT in ('INS','DEL','UPD')),
 TRNAME varchar(50),
 CC varchar(800)
 )
-
+select * from TR_AUDIT;
 go
 create trigger TR_ORDER  on [ORDER] after INSERT, DELETE, UPDATE  
 as 
@@ -103,9 +103,9 @@ else
 if @ins = 0 and  @del > 0  
 begin 
     print 'Событие: DELETE';
-   insert into TR_AUDIT values ('DEL','TR_ORDER_DEL','CustomerName:' + rtrim((SELECT CustomerName from INSERTED)) + '. ServiceId:' + rtrim((SELECT ServiceId from INSERTED)) + 
-													'. UnitAmount:' + rtrim((SELECT UnitsAmount from INSERTED)) + '. OrderDate: ' + rtrim((SELECT OrderDate from INSERTED))+
-													'. OrderExec:' + rtrim((SELECT OrderExec from INSERTED)));
+   insert into TR_AUDIT values ('DEL','TR_ORDER_DEL','CustomerName:' + rtrim((SELECT CustomerName from DELETED)) + '. ServiceId:' + rtrim((SELECT ServiceId from DELETED)) + 
+													'. UnitAmount:' + rtrim((SELECT UnitsAmount from DELETED)) + '. OrderDate: ' + rtrim((SELECT OrderDate from DELETED))+
+													'. OrderExec:' + rtrim((SELECT OrderExec from DELETED)));
 end; 
 else	  
 if @ins > 0 and  @del > 0  
@@ -131,7 +131,7 @@ else
 if @ins = 0 and  @del > 0  
 begin 
     print 'Событие: DELETE';
-   insert into TR_AUDIT values ('DEL','TR_ROUTE_DEL','RouteName:' + rtrim((SELECT RouteName from INSERTED)));
+   insert into TR_AUDIT values ('DEL','TR_ROUTE_DEL','RouteName:' + rtrim((SELECT RouteName from DELETED)));
 end; 
 else	  
 if @ins > 0 and  @del > 0  
@@ -155,7 +155,7 @@ else
 if @ins = 0 and  @del > 0  
 begin 
     print 'Событие: DELETE';
-   insert into TR_AUDIT values ('DEL','TR_CUSTOMER_DEL','CustomerName:' + rtrim((SELECT CustomerName from INSERTED)));
+   insert into TR_AUDIT values ('DEL','TR_CUSTOMER_DEL','CustomerName:' + rtrim((SELECT CustomerName from DELETED)));
 end; 
 else	  
 if @ins > 0 and  @del > 0  

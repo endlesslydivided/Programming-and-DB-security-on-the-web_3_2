@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Lab2.DB.Impl
 {
-    class OrderRepository : IOrderRepository
+    class OrderRepository : IRepository<Order>
     {
         public SqlConnection connection;
 
@@ -98,7 +98,7 @@ namespace Lab2.DB.Impl
             
             connection.Open();
 
-            int number = command.ExecuteNonQuery() - 1;
+            int number = command.ExecuteNonQuery();
             Console.WriteLine("\nДобавлено объектов: {0}", number);
 
             connection.Close();
@@ -119,7 +119,7 @@ namespace Lab2.DB.Impl
             command.Parameters.AddWithValue("@OrderExec", order.OrderExec);
             command.Connection = connection;
 
-            int number = command.ExecuteNonQuery() - 1;
+            int number = command.ExecuteNonQuery();
             Console.WriteLine("\nИзменено объектов: {0}", number);
 
             connection.Close();
@@ -156,17 +156,18 @@ namespace Lab2.DB.Impl
             DataSet ds = new DataSet();
             adapter.Fill(ds);
             foreach (DataColumn column in ds.Tables[0].Columns)
-                Console.Write("{0,20}", column.ColumnName);
+                Console.Write("{0,27}", column.ColumnName);
             Console.WriteLine();
             foreach (DataRow row in ds.Tables[0].Rows)
             {             
                 var cells = row.ItemArray;
                 foreach (object cell in cells)
-                   Console.Write("{0,20}", cell);
+                   Console.Write("{0,27}", cell);
                 Console.WriteLine();
             }
 
             connection.Close();
         }
+
     }
 }

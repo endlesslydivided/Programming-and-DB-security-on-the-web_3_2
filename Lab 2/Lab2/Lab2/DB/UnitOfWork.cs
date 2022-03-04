@@ -14,6 +14,12 @@ namespace Lab2.DB
         
 
         private OrderRepository orderRepository;
+        private CityRepository cityRepository;
+        private CustomerRepository customerRepository;
+        private RouteRepository routeRepository;
+        private ServiceRepository serviceRepository;
+        private ServiceTypeRepository serviceTypeRepository;
+
 
         public OrderRepository OrderRepository
         {
@@ -22,6 +28,56 @@ namespace Lab2.DB
                 if (orderRepository == null)
                     orderRepository = new OrderRepository(connection);
                 return orderRepository;
+            }
+        }
+
+        public CityRepository CityRepository
+        {
+            get
+            {
+                if (cityRepository == null)
+                    cityRepository = new CityRepository(connection);
+                return cityRepository;
+            }
+        }
+
+        public CustomerRepository CustomerRepository
+        {
+            get
+            {
+                if (customerRepository == null)
+                    customerRepository = new CustomerRepository(connection);
+                return customerRepository;
+            }
+        }
+
+        public RouteRepository RouteRepository
+        {
+            get
+            {
+                if (routeRepository == null)
+                    routeRepository = new RouteRepository(connection);
+                return routeRepository;
+            }
+        }
+
+        public ServiceRepository ServiceRepository
+        {
+            get
+            {
+                if (serviceRepository == null)
+                    serviceRepository = new ServiceRepository(connection);
+                return serviceRepository;
+            }
+        }
+
+        public ServiceTypeRepository ServiceTypeRepository
+        {
+            get
+            {
+                if (serviceTypeRepository == null)
+                    serviceTypeRepository = new ServiceTypeRepository(connection);
+                return serviceTypeRepository;
             }
         }
 
