@@ -1,0 +1,4515 @@
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<log>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Catalog TRANS, Schema dbo coalesced to single schema TRANS</message>
+  <key>Convert.COALESCED</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>TRANS</param>
+  <param>dbo</param>
+  <param>TRANS</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@3f22eb87</param>
+
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value ('0') has been replaced with '0'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@2e6c6e6e</param>
+
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Order_.UnitsAmount</message>
+  <param>Order_, MD_TABLES, 94951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Service.CostPerUnit</message>
+  <param>Service, MD_TABLES, 101101Convert</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-11T08:49:09</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value ('0') has been replaced with '0'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@140e369d</param>
+
+<record>
+  <date>2022-03-11T08:49:09</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Order_.UnitsAmount</message>
+  <param>Order_, MD_TABLES, 94951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:09</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Service.CostPerUnit</message>
+  <param>Service, MD_TABLES, 101101Convert</param>
+
+</record>
+</record>
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_ServiceSTAsc' on table 'Service' has been dropped as it is a duplicate of index 'index_ServiceST'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_ServiceSTAsc</param>
+  <param>Service</param>
+  <param>index_ServiceST</param>
+  <param>index_ServiceST, MD_INDEXES, 101751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_ServiceRNAsc' on table 'Service' has been dropped as it is a duplicate of index 'index_ServiceRN'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_ServiceRNAsc</param>
+  <param>Service</param>
+  <param>index_ServiceRN</param>
+  <param>index_ServiceRN, MD_INDEXES, 101951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_ServiceCPUAsc' on table 'Service' has been dropped as it is a duplicate of index 'index_ServiceCPU'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_ServiceCPUAsc</param>
+  <param>Service</param>
+  <param>index_ServiceCPU</param>
+  <param>index_ServiceCPU, MD_INDEXES, 102151Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_ServiceSTDesc' on table 'Service' has been dropped as it is a duplicate of index 'index_ServiceST'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_ServiceSTDesc</param>
+  <param>Service</param>
+  <param>index_ServiceST</param>
+  <param>index_ServiceST, MD_INDEXES, 101751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_ServiceRNDesc' on table 'Service' has been dropped as it is a duplicate of index 'index_ServiceRN'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_ServiceRNDesc</param>
+  <param>Service</param>
+  <param>index_ServiceRN</param>
+  <param>index_ServiceRN, MD_INDEXES, 101951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_ServiceCPUDesc' on table 'Service' has been dropped as it is a duplicate of index 'index_ServiceCPU'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_ServiceCPUDesc</param>
+  <param>Service</param>
+  <param>index_ServiceCPU</param>
+  <param>index_ServiceCPU, MD_INDEXES, 102151Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderCNAsc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderCN'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderCNAsc</param>
+  <param>Order</param>
+  <param>index_OrderCN</param>
+  <param>index_OrderCN, MD_INDEXES, 95801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderSIdAsc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderSId'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderSIdAsc</param>
+  <param>Order</param>
+  <param>index_OrderSId</param>
+  <param>index_OrderSId, MD_INDEXES, 96001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderUAAsc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderUA'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderUAAsc</param>
+  <param>Order</param>
+  <param>index_OrderUA</param>
+  <param>index_OrderUA, MD_INDEXES, 96201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderOEAsc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderOE'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderOEAsc</param>
+  <param>Order</param>
+  <param>index_OrderOE</param>
+  <param>index_OrderOE, MD_INDEXES, 96401Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderODAsc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderOD'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderODAsc</param>
+  <param>Order</param>
+  <param>index_OrderOD</param>
+  <param>index_OrderOD, MD_INDEXES, 96601Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderCNDesc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderCN'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderCNDesc</param>
+  <param>Order</param>
+  <param>index_OrderCN</param>
+  <param>index_OrderCN, MD_INDEXES, 95801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderSIdDesc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderSId'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderSIdDesc</param>
+  <param>Order</param>
+  <param>index_OrderSId</param>
+  <param>index_OrderSId, MD_INDEXES, 96001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderUADesc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderUA'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderUADesc</param>
+  <param>Order</param>
+  <param>index_OrderUA</param>
+  <param>index_OrderUA, MD_INDEXES, 96201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderOEDesc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderOE'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderOEDesc</param>
+  <param>Order</param>
+  <param>index_OrderOE</param>
+  <param>index_OrderOE, MD_INDEXES, 96401Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderODDesc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderOD'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderODDesc</param>
+  <param>Order</param>
+  <param>index_OrderOD</param>
+  <param>index_OrderOD, MD_INDEXES, 96601Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'UQ__ServiceT__A42B5F9932C0131F' on table 'ServiceType' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>UQ__ServiceT__A42B5F9932C0131F</param>
+  <param>ServiceType</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@1c762649</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_ServiceTypeUL' on table 'ServiceType' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_ServiceTypeUL</param>
+  <param>ServiceType</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@6b18f19f</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_ServiceTypeULAsc' on table 'ServiceType' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_ServiceTypeULAsc</param>
+  <param>ServiceType</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@20c44229</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_ServiceTypeULDesc' on table 'ServiceType' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_ServiceTypeULDesc</param>
+  <param>ServiceType</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@3281d1e4</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'UQ__City__886159E57BAF37BF' on table 'City' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>UQ__City__886159E57BAF37BF</param>
+  <param>City</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@1f68ed93</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_CityNameUL' on table 'City' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_CityNameUL</param>
+  <param>City</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@335073e8</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_CityNameULAsc' on table 'City' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_CityNameULAsc</param>
+  <param>City</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@3107baa1</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_CityNameULDesc' on table 'City' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_CityNameULDesc</param>
+  <param>City</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@db54394</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'UQ__Route__D3FE5EDB0F8F9A07' on table 'Route' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>UQ__Route__D3FE5EDB0F8F9A07</param>
+  <param>Route</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@55e923c4</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_RouteNameUL' on table 'Route' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_RouteNameUL</param>
+  <param>Route</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@6516c5a2</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_RouteNameULAsc' on table 'Route' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_RouteNameULAsc</param>
+  <param>Route</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@69c8b913</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_RouteNameULDesc' on table 'Route' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_RouteNameULDesc</param>
+  <param>Route</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@4e46ee5d</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'UQ__Customer__7A22C6EA5C7B4FF6' on table 'Customer' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>UQ__Customer__7A22C6EA5C7B4FF6</param>
+  <param>Customer</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@522d0352</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_CustomerCN' on table 'Customer' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_CustomerCN</param>
+  <param>Customer</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@145e760</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_CustomerCNAsc' on table 'Customer' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_CustomerCNAsc</param>
+  <param>Customer</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@2de9c67a</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:35</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_CustomerCNDesc' on table 'Customer' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_CustomerCNDesc</param>
+  <param>Customer</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@5424e19c</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Following objects have had name changes applied</message>
+  <key>Convert.IDENTIFIER_TRANSFORMED_HEADING</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@25e926da</param>
+
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderOD' Changed to 'index_OrderODDesc' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERODDESC_3, MD_INDEXES, 96601Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_ServiceST' Changed to 'index_ServiceSTDesc' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_SERVICESTDESC_9, MD_INDEXES, 101751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_ServiceRN' Changed to 'index_ServiceRNDesc' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_SERVICERNDESC_8, MD_INDEXES, 101951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_ServiceCPU' Changed to 'index_ServiceCPUDesc' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_SERVICECPUDESC_7, MD_INDEXES, 102151Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_ServiceST' Changed to 'INDEX_SERVICESTDESC_9' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_SERVICESTDESC_9, MD_INDEXES, 101751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_ServiceRN' Changed to 'INDEX_SERVICERNDESC_7' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_SERVICERNDESC_8, MD_INDEXES, 101951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_ServiceCPU' Changed to 'INDEX_SERVICECPUDESC_6' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_SERVICECPUDESC_7, MD_INDEXES, 102151Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_ServiceST' Changed to 'INDEX_SERVICESTDESC_8' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_SERVICESTDESC_9, MD_INDEXES, 101751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_ServiceRN' Changed to 'INDEX_SERVICERNDESC_8' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_SERVICERNDESC_8, MD_INDEXES, 101951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_ServiceCPU' Changed to 'INDEX_SERVICECPUDESC_7' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_SERVICECPUDESC_7, MD_INDEXES, 102151Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Column 'Level' Changed to 'Level_' (Invalid characters, reserved word or clash)</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@3f22eb87</param>
+
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value ('0') has been replaced with '0'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@2e6c6e6e</param>
+
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Order_.UnitsAmount</message>
+  <param>Order_, MD_TABLES, 94951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Service.CostPerUnit</message>
+  <param>Service, MD_TABLES, 101101Convert</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-11T08:49:09</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value ('0') has been replaced with '0'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@140e369d</param>
+
+<record>
+  <date>2022-03-11T08:49:09</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Order_.UnitsAmount</message>
+  <param>Order_, MD_TABLES, 94951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:09</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Service.CostPerUnit</message>
+  <param>Service, MD_TABLES, 101101Convert</param>
+
+</record>
+</record>
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Table 'Order' Changed to 'Order_' (Invalid characters, reserved word or clash)</message>
+  <param>Order_, MD_TABLES, 94951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderCN' Changed to 'index_OrderCNDesc' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERCNDESC_2, MD_INDEXES, 95801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderSId' Changed to 'index_OrderSIdDesc' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERSIDDESC_5, MD_INDEXES, 96001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderUA' Changed to 'index_OrderUADesc' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERUADESC_6, MD_INDEXES, 96201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderOE' Changed to 'index_OrderOEDesc' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDEROEDESC_4, MD_INDEXES, 96401Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderOD' Changed to 'INDEX_ORDERODDESC_3' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERODDESC_3, MD_INDEXES, 96601Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderCN' Changed to 'INDEX_ORDERCNDESC_2' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERCNDESC_2, MD_INDEXES, 95801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderSId' Changed to 'INDEX_ORDERSIDDESC_4' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERSIDDESC_5, MD_INDEXES, 96001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderUA' Changed to 'INDEX_ORDERUADESC_6' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERUADESC_6, MD_INDEXES, 96201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderOE' Changed to 'INDEX_ORDEROEDESC_3' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDEROEDESC_4, MD_INDEXES, 96401Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderOD' Changed to 'INDEX_ORDERODDESC_2' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERODDESC_3, MD_INDEXES, 96601Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderCN' Changed to 'INDEX_ORDERCNDESC_1' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERCNDESC_2, MD_INDEXES, 95801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderSId' Changed to 'INDEX_ORDERSIDDESC_5' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERSIDDESC_5, MD_INDEXES, 96001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderUA' Changed to 'INDEX_ORDERUADESC_5' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERUADESC_6, MD_INDEXES, 96201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:36</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderOE' Changed to 'INDEX_ORDEROEDESC_4' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDEROEDESC_4, MD_INDEXES, 96401Convert</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-11T09:09:39</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default Values Transformed: The following column default values have been transformed during conversion</message>
+  <key>Convert.DEFAULT_LOG_HEADER</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@3f22eb87</param>
+
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value ('0') has been replaced with '0'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@2e6c6e6e</param>
+
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Order_.UnitsAmount</message>
+  <param>Order_, MD_TABLES, 94951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Service.CostPerUnit</message>
+  <param>Service, MD_TABLES, 101101Convert</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-11T08:49:09</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value ('0') has been replaced with '0'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@140e369d</param>
+
+<record>
+  <date>2022-03-11T08:49:09</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Order_.UnitsAmount</message>
+  <param>Order_, MD_TABLES, 94951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:09</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Service.CostPerUnit</message>
+  <param>Service, MD_TABLES, 101101Convert</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-11T09:09:39</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value ('0') has been replaced with '0'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@43e33749</param>
+
+<record>
+  <date>2022-03-11T09:09:39</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Order_.UnitsAmount</message>
+  <param>Order_, MD_TABLES, 94951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:39</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Service.CostPerUnit</message>
+  <param>Service, MD_TABLES, 101101Convert</param>
+
+</record>
+</record>
+</record>
+<record>
+  <date>2022-03-11T09:09:40</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:CK__ServiceTy__UnitT__25869641</message>
+  <param>CK__ServiceTy__UnitT__25869641, MD_CONSTRAINTS, 81651Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:40</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted CK__ServiceTy__UnitT__25869641 in 0 seconds</message>
+  <param>CK__ServiceTy__UnitT__25869641, MD_CONSTRAINTS, 119401Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:41</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:CK__TR_AUDIT__STMT__5070F446</message>
+  <param>CK__TR_AUDIT__STMT__5070F446, MD_CONSTRAINTS, 81751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:42</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted CK__TR_AUDIT__STMT__5070F446 in 0 seconds</message>
+  <param>CK__TR_AUDIT__STMT__5070F446, MD_CONSTRAINTS, 119601Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:42</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:OrdersWithServices</message>
+  <param>OrdersWithServices, MD_VIEWS, 21751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:42</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted OrdersWithServices in 0 seconds</message>
+  <param>OrdersWithServices, MD_VIEWS, 112001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:42</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:NumberRouteOrders</message>
+  <param>NumberRouteOrders, MD_VIEWS, 21801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:43</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted NumberRouteOrders in 0 seconds</message>
+  <param>NumberRouteOrders, MD_VIEWS, 112101Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:44</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:CityRoutesDeparture</message>
+  <param>CityRoutesDeparture, MD_VIEWS, 21851Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:44</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted CityRoutesDeparture in 0 seconds</message>
+  <param>CityRoutesDeparture, MD_VIEWS, 112201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:45</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:findNearest</message>
+  <param>findNearest, MD_STORED_PROGRAMS, 112501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:45</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Failed To Convert Stored Procedure findNearest antlr.NoViableAltException&gt;TRANS.dbo.findNearest:unexpected end of subtree:Line 0 Column 0:
+[TRANS.dbo.findNearest [ line 3:2: unexpected token: SELECT ]]</message>
+  <param>findNearest, MD_STORED_PROGRAMS, 112501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:46</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:getDistanse</message>
+  <param>getDistanse, MD_STORED_PROGRAMS, 112651Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:46</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted getDistanse in 0 seconds</message>
+  <param>getDistanse, MD_STORED_PROGRAMS, 112651Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:47</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:getIntersect</message>
+  <param>getIntersect, MD_STORED_PROGRAMS, 112801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:47</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Failed To Convert Stored Procedure getIntersect antlr.NoViableAltException&gt;TRANS.dbo.getIntersect:unexpected end of subtree:Line 0 Column 0:
+[TRANS.dbo.getIntersect [ line 4:2: unexpected token: SELECT ],TRANS.dbo.getIntersect [ line 4:2: unexpected token: SELECT ],TRANS.dbo.getIntersect [ line 4:140: expecting "end", found ')' ]]</message>
+  <param>getIntersect, MD_STORED_PROGRAMS, 112801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:48</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:TGetOrdersByDate</message>
+  <param>TGetOrdersByDate, MD_STORED_PROGRAMS, 113351Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:48</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted TGetOrdersByDate in 0 seconds</message>
+  <param>TGetOrdersByDate, MD_STORED_PROGRAMS, 113351Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:49</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:TGetOrdersQByCompany</message>
+  <param>TGetOrdersQByCompany, MD_STORED_PROGRAMS, 113501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:49</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted TGetOrdersQByCompany in 0 seconds</message>
+  <param>TGetOrdersQByCompany, MD_STORED_PROGRAMS, 113501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:50</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:TGetRelevantRoutesByCompany</message>
+  <param>TGetRelevantRoutesByCompany, MD_STORED_PROGRAMS, 113651Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:50</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted TGetRelevantRoutesByCompany in 0 seconds</message>
+  <param>TGetRelevantRoutesByCompany, MD_STORED_PROGRAMS, 113651Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:50</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:addChildNode</message>
+  <param>addChildNode, MD_STORED_PROGRAMS, 112301Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:50</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Translation limitation 'Geo' encountered on Stored Procedure TRANS.dbo.addChildNode line 10 column 13</message>
+  <param>addChildNode, MD_STORED_PROGRAMS, 112301</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:50</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted addChildNode in 0 seconds</message>
+  <param>addChildNode, MD_STORED_PROGRAMS, 112301Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:51</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:AI_ORDERS</message>
+  <param>AI_ORDERS, MD_STORED_PROGRAMS, 112401Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:52</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Multiple Limitations for Stored Procedure AI_ORDERS</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@211aef67</param>
+
+<record>
+  <date>2022-03-11T09:09:52</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Translation limitation 'CHECKSUM' encountered on Stored Procedure TRANS.dbo.AI_ORDERS line 13 column 112</message>
+  <param>AI_ORDERS, MD_STORED_PROGRAMS, 112401</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:52</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Translation limitation 'CHECKSUM' encountered on Stored Procedure TRANS.dbo.AI_ORDERS line 16 column 101</message>
+  <param>AI_ORDERS, MD_STORED_PROGRAMS, 112401</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-11T09:09:52</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted AI_ORDERS in 0 seconds</message>
+  <param>AI_ORDERS, MD_STORED_PROGRAMS, 112401Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:52</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:getRoot</message>
+  <param>getRoot, MD_STORED_PROGRAMS, 112951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:53</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted getRoot in 0 seconds</message>
+  <param>getRoot, MD_STORED_PROGRAMS, 112951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:53</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:moveRoot</message>
+  <param>moveRoot, MD_STORED_PROGRAMS, 113051Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:53</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Failed To Convert Stored Procedure moveRoot antlr.NoViableAltException&gt;TRANS.dbo.moveRoot:unexpected end of subtree:Line 0 Column 0:
+[TRANS.dbo.moveRoot [ line 10:53: expecting "end", found ')' ]]</message>
+  <param>moveRoot, MD_STORED_PROGRAMS, 113051Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:54</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:TCity</message>
+  <param>TCity, MD_STORED_PROGRAMS, 113151Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:54</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted TCity in 0 seconds</message>
+  <param>TCity, MD_STORED_PROGRAMS, 113151Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:55</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:TCustomer</message>
+  <param>TCustomer, MD_STORED_PROGRAMS, 113251Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:55</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted TCustomer in 0 seconds</message>
+  <param>TCustomer, MD_STORED_PROGRAMS, 113251Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:56</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:TOrder</message>
+  <param>TOrder, MD_STORED_PROGRAMS, 113801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:56</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted TOrder in 0 seconds</message>
+  <param>TOrder, MD_STORED_PROGRAMS, 113801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:57</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:TRoute</message>
+  <param>TRoute, MD_STORED_PROGRAMS, 113901Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:57</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted TRoute in 0 seconds</message>
+  <param>TRoute, MD_STORED_PROGRAMS, 113901Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:57</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:TServices</message>
+  <param>TServices, MD_STORED_PROGRAMS, 114001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:58</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:TServiceType</message>
+  <param>TServiceType, MD_STORED_PROGRAMS, 114101Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:58</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted TServiceType in 0 seconds</message>
+  <param>TServiceType, MD_STORED_PROGRAMS, 114101Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:58</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted TServices in 0 seconds</message>
+  <param>TServices, MD_STORED_PROGRAMS, 114001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:00</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+  <message>Convert completed in 20 seconds</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@3f22eb87</param>
+
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value ('0') has been replaced with '0'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@2e6c6e6e</param>
+
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Order_.UnitsAmount</message>
+  <param>Order_, MD_TABLES, 94951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Service.CostPerUnit</message>
+  <param>Service, MD_TABLES, 101101Convert</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-11T08:49:09</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value ('0') has been replaced with '0'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@140e369d</param>
+
+<record>
+  <date>2022-03-11T08:49:09</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Order_.UnitsAmount</message>
+  <param>Order_, MD_TABLES, 94951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:09</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Service.CostPerUnit</message>
+  <param>Service, MD_TABLES, 101101Convert</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-11T09:09:39</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value ('0') has been replaced with '0'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@43e33749</param>
+
+<record>
+  <date>2022-03-11T09:09:39</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Order_.UnitsAmount</message>
+  <param>Order_, MD_TABLES, 94951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:09:39</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Service.CostPerUnit</message>
+  <param>Service, MD_TABLES, 101101Convert</param>
+
+</record>
+</record>
+</record>
+<record>
+  <date>2022-03-11T09:10:01</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.generate.GenerateWorker</class>
+  <message>Stored Procedure 'moveRoot' has language id of 'FailedSQL' so will not output for generation</message>
+  <key>Generate.PROCNOTCONVERTED</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>moveRoot</param>
+  <param>FailedSQL</param>
+  <param>moveRoot, MD_STORED_PROGRAMS, 113051Generate</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:01</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.generate.GenerateWorker</class>
+  <message>Stored Procedure 'findNearest' has language id of 'FailedSQL' so will not output for generation</message>
+  <key>Generate.PROCNOTCONVERTED</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>findNearest</param>
+  <param>FailedSQL</param>
+  <param>findNearest, MD_STORED_PROGRAMS, 112501Generate</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:01</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.generate.GenerateWorker</class>
+  <message>Stored Procedure 'getIntersect' has language id of 'FailedSQL' so will not output for generation</message>
+  <key>Generate.PROCNOTCONVERTED</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>getIntersect</param>
+  <param>FailedSQL</param>
+  <param>getIntersect, MD_STORED_PROGRAMS, 112801Generate</param>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@45091d3f</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@7ce542ab</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@5a659273</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@1d42026d</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@21b6c697</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@7cdd9c81</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@3caea714</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@2eadcb99</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@8370832</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@358b62c</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@44521773</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@5232ffd8</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@1202ce91</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@37b9160f</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@26d60357</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@44565099</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@33411860</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@615ee344</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@5a7a00c4</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@b72716b</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@17769867</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@3e53b3c4</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T09:10:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Failed to disable constraints: Data Move</message>
+  <key>DataMove.DISABLE_CONSTRAINTS_FAILED</key>
+  <catalog>&lt;null&gt;</catalog>
+  <param>Data Move</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@3969322d</param>
+  <exception>
+    <message>java.sql.SQLSyntaxErrorException: ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>630</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIoer11</class>
+      <line>564</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>1151</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>771</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CTTIfun</class>
+      <line>299</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4C8Oall</class>
+      <line>498</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>112</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.T4CStatement</class>
+      <line>1011</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1531</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>1311</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2089</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2054</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatement</class>
+      <line>2042</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.driver.OracleStatementWrapper</class>
+      <line>310</line>
+    </frame>
+    <frame>
+      <class>oracle.jdbc.proxy.oracle$1dbtools$1raptor$1proxy$1driver$1oracle$1RaptorProxyOJDBCStatement$2oracle$1jdbc$1internal$1OracleStatement$$$Proxy</class>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>163</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.ConstraintHandler</class>
+      <line>101</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.datamove.online.DataMoveWorker</class>
+      <line>257</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1508</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>449</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+</log>

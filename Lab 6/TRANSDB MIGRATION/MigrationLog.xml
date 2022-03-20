@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<log>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Catalog TRANS, Schema dbo coalesced to single schema TRANS</message>
+  <key>Convert.COALESCED</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>TRANS</param>
+  <param>dbo</param>
+  <param>TRANS</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@3f22eb87</param>
+
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value ('0') has been replaced with '0'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@2e6c6e6e</param>
+
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Order_.UnitsAmount</message>
+  <param>Order_, MD_TABLES, 94951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Service.CostPerUnit</message>
+  <param>Service, MD_TABLES, 101101Convert</param>
+
+</record>
+</record>
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_ServiceSTAsc' on table 'Service' has been dropped as it is a duplicate of index 'index_ServiceST'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_ServiceSTAsc</param>
+  <param>Service</param>
+  <param>index_ServiceST</param>
+  <param>index_ServiceST, MD_INDEXES, 101751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_ServiceRNAsc' on table 'Service' has been dropped as it is a duplicate of index 'index_ServiceRN'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_ServiceRNAsc</param>
+  <param>Service</param>
+  <param>index_ServiceRN</param>
+  <param>index_ServiceRN, MD_INDEXES, 101951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_ServiceCPUAsc' on table 'Service' has been dropped as it is a duplicate of index 'index_ServiceCPU'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_ServiceCPUAsc</param>
+  <param>Service</param>
+  <param>index_ServiceCPU</param>
+  <param>index_ServiceCPU, MD_INDEXES, 102151Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_ServiceSTDesc' on table 'Service' has been dropped as it is a duplicate of index 'index_ServiceST'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_ServiceSTDesc</param>
+  <param>Service</param>
+  <param>index_ServiceST</param>
+  <param>index_ServiceST, MD_INDEXES, 101751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_ServiceRNDesc' on table 'Service' has been dropped as it is a duplicate of index 'index_ServiceRN'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_ServiceRNDesc</param>
+  <param>Service</param>
+  <param>index_ServiceRN</param>
+  <param>index_ServiceRN, MD_INDEXES, 101951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_ServiceCPUDesc' on table 'Service' has been dropped as it is a duplicate of index 'index_ServiceCPU'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_ServiceCPUDesc</param>
+  <param>Service</param>
+  <param>index_ServiceCPU</param>
+  <param>index_ServiceCPU, MD_INDEXES, 102151Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderCNAsc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderCN'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderCNAsc</param>
+  <param>Order</param>
+  <param>index_OrderCN</param>
+  <param>index_OrderCN, MD_INDEXES, 95801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderSIdAsc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderSId'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderSIdAsc</param>
+  <param>Order</param>
+  <param>index_OrderSId</param>
+  <param>index_OrderSId, MD_INDEXES, 96001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderUAAsc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderUA'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderUAAsc</param>
+  <param>Order</param>
+  <param>index_OrderUA</param>
+  <param>index_OrderUA, MD_INDEXES, 96201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderOEAsc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderOE'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderOEAsc</param>
+  <param>Order</param>
+  <param>index_OrderOE</param>
+  <param>index_OrderOE, MD_INDEXES, 96401Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderODAsc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderOD'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderODAsc</param>
+  <param>Order</param>
+  <param>index_OrderOD</param>
+  <param>index_OrderOD, MD_INDEXES, 96601Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderCNDesc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderCN'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderCNDesc</param>
+  <param>Order</param>
+  <param>index_OrderCN</param>
+  <param>index_OrderCN, MD_INDEXES, 95801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderSIdDesc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderSId'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderSIdDesc</param>
+  <param>Order</param>
+  <param>index_OrderSId</param>
+  <param>index_OrderSId, MD_INDEXES, 96001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderUADesc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderUA'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderUADesc</param>
+  <param>Order</param>
+  <param>index_OrderUA</param>
+  <param>index_OrderUA, MD_INDEXES, 96201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderOEDesc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderOE'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderOEDesc</param>
+  <param>Order</param>
+  <param>index_OrderOE</param>
+  <param>index_OrderOE, MD_INDEXES, 96401Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_OrderODDesc' on table 'Order' has been dropped as it is a duplicate of index 'index_OrderOD'</message>
+  <key>Convert.DROPPEDDUPLICATEINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_OrderODDesc</param>
+  <param>Order</param>
+  <param>index_OrderOD</param>
+  <param>index_OrderOD, MD_INDEXES, 96601Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'UQ__ServiceT__A42B5F9932C0131F' on table 'ServiceType' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>UQ__ServiceT__A42B5F9932C0131F</param>
+  <param>ServiceType</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@36ca3747</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_ServiceTypeUL' on table 'ServiceType' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_ServiceTypeUL</param>
+  <param>ServiceType</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@53ebb6ff</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_ServiceTypeULAsc' on table 'ServiceType' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_ServiceTypeULAsc</param>
+  <param>ServiceType</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@502f186f</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_ServiceTypeULDesc' on table 'ServiceType' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_ServiceTypeULDesc</param>
+  <param>ServiceType</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@55c1bc53</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'UQ__City__886159E57BAF37BF' on table 'City' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>UQ__City__886159E57BAF37BF</param>
+  <param>City</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@32d6d9a3</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_CityNameUL' on table 'City' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_CityNameUL</param>
+  <param>City</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@3c04dd48</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_CityNameULAsc' on table 'City' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_CityNameULAsc</param>
+  <param>City</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@14c056c7</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_CityNameULDesc' on table 'City' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_CityNameULDesc</param>
+  <param>City</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@4c3b5328</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'UQ__Route__D3FE5EDB0F8F9A07' on table 'Route' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>UQ__Route__D3FE5EDB0F8F9A07</param>
+  <param>Route</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@482490cd</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_RouteNameUL' on table 'Route' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_RouteNameUL</param>
+  <param>Route</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@52d0fa1c</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_RouteNameULAsc' on table 'Route' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_RouteNameULAsc</param>
+  <param>Route</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@44b0f8ef</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_RouteNameULDesc' on table 'Route' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_RouteNameULDesc</param>
+  <param>Route</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@52045142</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'UQ__Customer__7A22C6EA5C7B4FF6' on table 'Customer' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>UQ__Customer__7A22C6EA5C7B4FF6</param>
+  <param>Customer</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@3e4a1137</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_CustomerCN' on table 'Customer' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_CustomerCN</param>
+  <param>Customer</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@6b1f0cf8</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_CustomerCNAsc' on table 'Customer' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_CustomerCNAsc</param>
+  <param>Customer</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@282bf6f4</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:05</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConvertUtils</class>
+  <message>Index 'index_CustomerCNDesc' on table 'Customer' has been dropped as it is a duplicate of a constraint</message>
+  <key>Convert.DROPPEDCONSTRAINTINDEX</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>index_CustomerCNDesc</param>
+  <param>Customer</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@58553cf2</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Following objects have had name changes applied</message>
+  <key>Convert.IDENTIFIER_TRANSFORMED_HEADING</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@5400532f</param>
+
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Column 'Level' Changed to 'Level_' (Invalid characters, reserved word or clash)</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@3f22eb87</param>
+
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value ('0') has been replaced with '0'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@2e6c6e6e</param>
+
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Order_.UnitsAmount</message>
+  <param>Order_, MD_TABLES, 94951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Service.CostPerUnit</message>
+  <param>Service, MD_TABLES, 101101Convert</param>
+
+</record>
+</record>
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Table 'Order' Changed to 'Order_' (Invalid characters, reserved word or clash)</message>
+  <param>Order_, MD_TABLES, 94951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderCN' Changed to 'index_OrderCNDesc' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERCNDESC_2, MD_INDEXES, 95801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderSId' Changed to 'index_OrderSIdDesc' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERSIDDESC_5, MD_INDEXES, 96001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderUA' Changed to 'index_OrderUADesc' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERUADESC_6, MD_INDEXES, 96201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderOE' Changed to 'index_OrderOEDesc' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDEROEDESC_4, MD_INDEXES, 96401Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderOD' Changed to 'index_OrderODDesc' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERODDESC_3, MD_INDEXES, 96601Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderCN' Changed to 'INDEX_ORDERCNDESC_2' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERCNDESC_2, MD_INDEXES, 95801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderSId' Changed to 'INDEX_ORDERSIDDESC_5' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERSIDDESC_5, MD_INDEXES, 96001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderUA' Changed to 'INDEX_ORDERUADESC_5' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERUADESC_6, MD_INDEXES, 96201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderOE' Changed to 'INDEX_ORDEROEDESC_4' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDEROEDESC_4, MD_INDEXES, 96401Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderOD' Changed to 'INDEX_ORDERODDESC_3' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERODDESC_3, MD_INDEXES, 96601Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderCN' Changed to 'INDEX_ORDERCNDESC_1' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERCNDESC_2, MD_INDEXES, 95801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderSId' Changed to 'INDEX_ORDERSIDDESC_4' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERSIDDESC_5, MD_INDEXES, 96001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderUA' Changed to 'INDEX_ORDERUADESC_6' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERUADESC_6, MD_INDEXES, 96201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderOE' Changed to 'INDEX_ORDEROEDESC_3' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDEROEDESC_4, MD_INDEXES, 96401Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_OrderOD' Changed to 'INDEX_ORDERODDESC_2' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_ORDERODDESC_3, MD_INDEXES, 96601Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_ServiceST' Changed to 'index_ServiceSTDesc' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_SERVICESTDESC_9, MD_INDEXES, 101751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_ServiceRN' Changed to 'index_ServiceRNDesc' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_SERVICERNDESC_8, MD_INDEXES, 101951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_ServiceCPU' Changed to 'index_ServiceCPUDesc' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_SERVICECPUDESC_7, MD_INDEXES, 102151Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_ServiceST' Changed to 'INDEX_SERVICESTDESC_9' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_SERVICESTDESC_9, MD_INDEXES, 101751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_ServiceRN' Changed to 'INDEX_SERVICERNDESC_7' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_SERVICERNDESC_8, MD_INDEXES, 101951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_ServiceCPU' Changed to 'INDEX_SERVICECPUDESC_7' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_SERVICECPUDESC_7, MD_INDEXES, 102151Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_ServiceST' Changed to 'INDEX_SERVICESTDESC_8' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_SERVICESTDESC_9, MD_INDEXES, 101751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_ServiceRN' Changed to 'INDEX_SERVICERNDESC_8' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_SERVICERNDESC_8, MD_INDEXES, 101951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:06</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Index 'index_ServiceCPU' Changed to 'INDEX_SERVICECPUDESC_6' (Invalid characters, reserved word or clash)</message>
+  <param>INDEX_SERVICECPUDESC_7, MD_INDEXES, 102151Convert</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-11T08:49:09</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default Values Transformed: The following column default values have been transformed during conversion</message>
+  <key>Convert.DEFAULT_LOG_HEADER</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@3f22eb87</param>
+
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value ('0') has been replaced with '0'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@2e6c6e6e</param>
+
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Order_.UnitsAmount</message>
+  <param>Order_, MD_TABLES, 94951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Service.CostPerUnit</message>
+  <param>Service, MD_TABLES, 101101Convert</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-11T08:49:09</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value ('0') has been replaced with '0'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@140e369d</param>
+
+<record>
+  <date>2022-03-11T08:49:09</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Order_.UnitsAmount</message>
+  <param>Order_, MD_TABLES, 94951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:09</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Service.CostPerUnit</message>
+  <param>Service, MD_TABLES, 101101Convert</param>
+
+</record>
+</record>
+</record>
+<record>
+  <date>2022-03-11T08:49:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:CK__ServiceTy__UnitT__25869641</message>
+  <param>CK__ServiceTy__UnitT__25869641, MD_CONSTRAINTS, 81651Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:10</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted CK__ServiceTy__UnitT__25869641 in 0 seconds</message>
+  <param>CK__ServiceTy__UnitT__25869641, MD_CONSTRAINTS, 119401Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:12</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:CK__TR_AUDIT__STMT__5070F446</message>
+  <param>CK__TR_AUDIT__STMT__5070F446, MD_CONSTRAINTS, 81751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:12</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted CK__TR_AUDIT__STMT__5070F446 in 0 seconds</message>
+  <param>CK__TR_AUDIT__STMT__5070F446, MD_CONSTRAINTS, 119601Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:13</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:OrdersWithServices</message>
+  <param>OrdersWithServices, MD_VIEWS, 21751Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:13</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted OrdersWithServices in 0 seconds</message>
+  <param>OrdersWithServices, MD_VIEWS, 112001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:13</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:NumberRouteOrders</message>
+  <param>NumberRouteOrders, MD_VIEWS, 21801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:14</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted NumberRouteOrders in 0 seconds</message>
+  <param>NumberRouteOrders, MD_VIEWS, 112101Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:14</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:CityRoutesDeparture</message>
+  <param>CityRoutesDeparture, MD_VIEWS, 21851Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:15</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted CityRoutesDeparture in 0 seconds</message>
+  <param>CityRoutesDeparture, MD_VIEWS, 112201Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:15</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:findNearest</message>
+  <param>findNearest, MD_STORED_PROGRAMS, 112501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:16</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Failed To Convert Stored Procedure findNearest antlr.NoViableAltException&gt;TRANS.dbo.findNearest:unexpected end of subtree:Line 0 Column 0:
+[TRANS.dbo.findNearest [ line 3:2: unexpected token: SELECT ]]</message>
+  <param>findNearest, MD_STORED_PROGRAMS, 112501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:16</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:getDistanse</message>
+  <param>getDistanse, MD_STORED_PROGRAMS, 112651Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:17</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted getDistanse in 0 seconds</message>
+  <param>getDistanse, MD_STORED_PROGRAMS, 112651Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:17</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:getIntersect</message>
+  <param>getIntersect, MD_STORED_PROGRAMS, 112801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:18</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Failed To Convert Stored Procedure getIntersect antlr.NoViableAltException&gt;TRANS.dbo.getIntersect:unexpected end of subtree:Line 0 Column 0:
+[TRANS.dbo.getIntersect [ line 4:2: unexpected token: SELECT ],TRANS.dbo.getIntersect [ line 4:2: unexpected token: SELECT ],TRANS.dbo.getIntersect [ line 4:140: expecting "end", found ')' ]]</message>
+  <param>getIntersect, MD_STORED_PROGRAMS, 112801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:18</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:TGetOrdersByDate</message>
+  <param>TGetOrdersByDate, MD_STORED_PROGRAMS, 113351Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:18</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted TGetOrdersByDate in 0 seconds</message>
+  <param>TGetOrdersByDate, MD_STORED_PROGRAMS, 113351Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:19</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:TGetOrdersQByCompany</message>
+  <param>TGetOrdersQByCompany, MD_STORED_PROGRAMS, 113501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:19</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted TGetOrdersQByCompany in 0 seconds</message>
+  <param>TGetOrdersQByCompany, MD_STORED_PROGRAMS, 113501Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:20</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:TGetRelevantRoutesByCompany</message>
+  <param>TGetRelevantRoutesByCompany, MD_STORED_PROGRAMS, 113651Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:20</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted TGetRelevantRoutesByCompany in 0 seconds</message>
+  <param>TGetRelevantRoutesByCompany, MD_STORED_PROGRAMS, 113651Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:21</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:addChildNode</message>
+  <param>addChildNode, MD_STORED_PROGRAMS, 112301Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:21</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Translation limitation 'Geo' encountered on Stored Procedure TRANS.dbo.addChildNode line 10 column 13</message>
+  <param>addChildNode, MD_STORED_PROGRAMS, 112301</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:21</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted addChildNode in 0 seconds</message>
+  <param>addChildNode, MD_STORED_PROGRAMS, 112301Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:22</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:AI_ORDERS</message>
+  <param>AI_ORDERS, MD_STORED_PROGRAMS, 112401Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:22</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Multiple Limitations for Stored Procedure AI_ORDERS</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@7fead6bd</param>
+
+<record>
+  <date>2022-03-11T08:49:22</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Translation limitation 'CHECKSUM' encountered on Stored Procedure TRANS.dbo.AI_ORDERS line 13 column 112</message>
+  <param>AI_ORDERS, MD_STORED_PROGRAMS, 112401</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:22</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.core.util.MultiLevelLogManager</class>
+  <message>Translation limitation 'CHECKSUM' encountered on Stored Procedure TRANS.dbo.AI_ORDERS line 16 column 101</message>
+  <param>AI_ORDERS, MD_STORED_PROGRAMS, 112401</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-11T08:49:22</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted AI_ORDERS in 0 seconds</message>
+  <param>AI_ORDERS, MD_STORED_PROGRAMS, 112401Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:23</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:getRoot</message>
+  <param>getRoot, MD_STORED_PROGRAMS, 112951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:23</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted getRoot in 0 seconds</message>
+  <param>getRoot, MD_STORED_PROGRAMS, 112951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:24</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:moveRoot</message>
+  <param>moveRoot, MD_STORED_PROGRAMS, 113051Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:24</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Failed To Convert Stored Procedure moveRoot antlr.NoViableAltException&gt;TRANS.dbo.moveRoot:unexpected end of subtree:Line 0 Column 0:
+[TRANS.dbo.moveRoot [ line 10:53: expecting "end", found ')' ]]</message>
+  <param>moveRoot, MD_STORED_PROGRAMS, 113051Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:25</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:TCity</message>
+  <param>TCity, MD_STORED_PROGRAMS, 113151Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:25</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted TCity in 0 seconds</message>
+  <param>TCity, MD_STORED_PROGRAMS, 113151Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:25</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:TCustomer</message>
+  <param>TCustomer, MD_STORED_PROGRAMS, 113251Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:26</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted TCustomer in 0 seconds</message>
+  <param>TCustomer, MD_STORED_PROGRAMS, 113251Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:26</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:TOrder</message>
+  <param>TOrder, MD_STORED_PROGRAMS, 113801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:27</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted TOrder in 0 seconds</message>
+  <param>TOrder, MD_STORED_PROGRAMS, 113801Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:27</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:TRoute</message>
+  <param>TRoute, MD_STORED_PROGRAMS, 113901Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:27</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted TRoute in 0 seconds</message>
+  <param>TRoute, MD_STORED_PROGRAMS, 113901Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:28</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:TServices</message>
+  <param>TServices, MD_STORED_PROGRAMS, 114001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:28</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Attempting Convert:TServiceType</message>
+  <param>TServiceType, MD_STORED_PROGRAMS, 114101Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:28</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted TServiceType in 0 seconds</message>
+  <param>TServiceType, MD_STORED_PROGRAMS, 114101Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:28</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Successfully Converted TServices in 0 seconds</message>
+  <param>TServices, MD_STORED_PROGRAMS, 114001Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:30</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+  <message>Convert completed in 20 seconds</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@3f22eb87</param>
+
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value ('0') has been replaced with '0'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@2e6c6e6e</param>
+
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Order_.UnitsAmount</message>
+  <param>Order_, MD_TABLES, 94951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:32:36</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Service.CostPerUnit</message>
+  <param>Service, MD_TABLES, 101101Convert</param>
+
+</record>
+</record>
+<record>
+  <date>2022-03-11T08:49:09</date>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>Default value ('0') has been replaced with '0'</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@140e369d</param>
+
+<record>
+  <date>2022-03-11T08:49:09</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Order_.UnitsAmount</message>
+  <param>Order_, MD_TABLES, 94951Convert</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:09</date>
+  <level>INFO</level>
+  <class>oracle.dbtools.migration.convert.ConverterWorker</class>
+  <message>TRANS.Service.CostPerUnit</message>
+  <param>Service, MD_TABLES, 101101Convert</param>
+
+</record>
+</record>
+</record>
+<record>
+  <date>2022-03-11T08:49:31</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.generate.GenerateWorker</class>
+  <message>Stored Procedure 'moveRoot' has language id of 'FailedSQL' so will not output for generation</message>
+  <key>Generate.PROCNOTCONVERTED</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>moveRoot</param>
+  <param>FailedSQL</param>
+  <param>moveRoot, MD_STORED_PROGRAMS, 113051Generate</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:31</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.generate.GenerateWorker</class>
+  <message>Stored Procedure 'findNearest' has language id of 'FailedSQL' so will not output for generation</message>
+  <key>Generate.PROCNOTCONVERTED</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>findNearest</param>
+  <param>FailedSQL</param>
+  <param>findNearest, MD_STORED_PROGRAMS, 112501Generate</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:31</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.generate.GenerateWorker</class>
+  <message>Stored Procedure 'getIntersect' has language id of 'FailedSQL' so will not output for generation</message>
+  <key>Generate.PROCNOTCONVERTED</key>
+  <catalog>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</catalog>
+  <param>getIntersect</param>
+  <param>FailedSQL</param>
+  <param>getIntersect, MD_STORED_PROGRAMS, 112801Generate</param>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:34</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Generation phase
+ORA-00942: таблица или представление пользователя не существует
+</message>
+  <param>oracle.dbtools.metadata.persistence.PersistableObject.doUpdate(PersistableObject.java:364)</param>
+  <param>oracle.dbtools.metadata.persistence.PersistableObject.save(PersistableObject.java:186)</param>
+  <param>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask.doGenerate(FullMigrateTask.java:1303)</param>
+  <param>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask.doMaskBasedActions(FullMigrateTask.java:437)</param>
+  <param>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask.doWork(FullMigrateTask.java:321)</param>
+  <param>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask.doWork(FullMigrateTask.java:154)</param>
+  <param>oracle.dbtools.raptor.backgroundTask.RaptorTask.call(RaptorTask.java:199)</param>
+  <param>java.util.concurrent.FutureTask.run(FutureTask.java:266)</param>
+  <param>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask.run(RaptorTaskManager.java:702)</param>
+  <param>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</param>
+  <param>java.util.concurrent.FutureTask.run(FutureTask.java:266)</param>
+  <param>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)</param>
+  <param>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)</param>
+  <param>java.lang.Thread.run(Thread.java:748)</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@4e912758</param>
+  <exception>
+    <message>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask$FullMigrateTaskException: Generation phase
+ORA-00942: таблица или представление пользователя не существует
+</message>
+    <frame>
+      <class>oracle.dbtools.metadata.persistence.PersistableObject</class>
+      <line>364</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.metadata.persistence.PersistableObject</class>
+      <line>186</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>1303</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>437</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>321</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>154</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>199</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>702</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1149</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>624</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>748</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2022-03-11T08:49:34</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+  <message>Generated script run has failures: FAILED : Database Migration : FAILED</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@65674930</param>
+
+</record>

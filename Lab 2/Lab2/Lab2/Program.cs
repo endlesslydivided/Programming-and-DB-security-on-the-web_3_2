@@ -18,7 +18,8 @@ namespace Lab2
                     Console.WriteLine("Выберите пункт меню:");
                     Console.WriteLine("1 - CRUD");
                     Console.WriteLine("2 - пространственные данные");
-                    Console.WriteLine("3 - выход");
+                    Console.WriteLine("3 - CRUD ORACLE");
+                    Console.WriteLine("4 - выход");
                     if (!int.TryParse(Console.ReadLine(), out p))
                     {
                         Console.WriteLine("Неверный ввод");
@@ -93,6 +94,53 @@ namespace Lab2
                                 break;
                             }
                         case 3:
+                            {
+                                using (UnitOfWork unit = new UnitOfWork())
+                                {
+                                    Order order = unit.OrderRepositoryOracle.Get(1);
+
+                                    unit.OrderRepositoryOracle.PrintTableHeader();
+                                    unit.OrderRepositoryOracle.PrintRow(order);
+
+                                    List<Order> orders = unit.OrderRepositoryOracle.GetAll();
+                                    unit.OrderRepositoryOracle.PrintTableHeader();
+                                    foreach (Order x in orders)
+                                    {
+                                        unit.OrderRepositoryOracle.PrintRow(x);
+                                    }
+
+                                    unit.OrderRepositoryOracle.Insert(new Order("Бабушкина крынка", 8, 100, new DateTime(2019, 1, 1, 13, 00, 00), new DateTime(2019, 1, 3, 13, 50, 00)));
+
+                                    orders = unit.OrderRepositoryOracle.GetAll();
+                                    unit.OrderRepositoryOracle.PrintTableHeader();
+                                    foreach (Order x in orders)
+                                    {
+                                        unit.OrderRepositoryOracle.PrintRow(x);
+                                    }
+
+                                    if (order != null)
+                                    {
+                                        order.ServiceId = 15;
+                                        unit.OrderRepositoryOracle.Update(order);
+                                        order = unit.OrderRepositoryOracle.Get(1);
+                                        unit.OrderRepositoryOracle.PrintTableHeader();
+                                        unit.OrderRepositoryOracle.PrintRow(order);
+                                    }
+
+                                    unit.OrderRepositoryOracle.Delete(116);
+
+                                    orders = unit.OrderRepositoryOracle.GetAll();
+                                    unit.OrderRepositoryOracle.PrintTableHeader();
+                                    foreach (Order x in orders)
+                                    {
+                                        unit.OrderRepositoryOracle.PrintRow(x);
+                                    }
+  
+                                    Console.ReadKey();
+                                    break;
+                                }
+                            }
+                        case 4:
                             {
                                 return;
                             }

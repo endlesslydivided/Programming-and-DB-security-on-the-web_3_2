@@ -12,18 +12,27 @@ SELECT @g.ToString();
 
 go
 --3. пересечение, исключение или объединение данных
-declare @g1 geometry; 
-select @g1 = ogr_geometry from MAP where ogr_fid = 102;
-declare @g2 geometry; 
-select @g2 = ogr_geometry from MAP where ogr_fid = 175;
-select @g1.STIntersects(@g2) as [Исключилось], @g1.STCrosses(@g2) as [Пересеклось], @g1.STContains(@g2) as [Объединилось];
+go
+DECLARE @g geometry;  
+DECLARE @h geometry;  
+SET @g = geometry::STGeomFromText('LINESTRING(0 2, 2 0)', 0);  
+SET @h = geometry::STGeomFromText('LINESTRING(0 0, 2 2)', 0);  
+SELECT @g.STCrosses(@h)[Пересечение];  
 
 go
-declare @g1 geometry; 
-select @g1 = Point from cityCoord where Id = (select City_Addr from City where CityName = 'Минск');
-declare @g2 geometry; 
-select @g2 = Point from cityCoord where Id = (select City_Addr from City where CityName = 'Минск');
-select @g1.STIntersects(@g2) as [Пересеклось], @g1.STCrosses(@g2) as [Объединилось], @g1.STContains(@g2) as [Исключилось];
+DECLARE @g geometry;  
+DECLARE @h geometry;  
+SET @g = geometry::STGeomFromText('LINESTRING(0 2, 2 0, 4 2)', 0);  
+SET @h = geometry::STGeomFromText('POINT(0 1)', 0);  
+SELECT @g.STIntersects(@h)[Исключение];  
+
+go
+DECLARE @g geometry;  
+DECLARE @h geometry;  
+SET @g = geometry::STGeomFromText('POLYGON((0 0, 2 0, 2 2, 0 2, 0 0))', 0);  
+SET @h = geometry::STGeomFromText('POINT(1 1)', 0);  
+SELECT @g.STContains(@h) [Объединение];  
+
 
 --3. Расстояние
 go

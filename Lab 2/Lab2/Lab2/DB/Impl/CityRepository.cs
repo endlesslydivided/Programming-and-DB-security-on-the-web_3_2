@@ -35,7 +35,7 @@ namespace Lab2.DB.Impl
                 isOpened = true;
             }
 
-            SqlCommand command = new SqlCommand();
+            SqlCommand command = new ();
             command.CommandText = "SELECT * FROM [City] where Id = @Id";
             command.Parameters.AddWithValue("@Id", id);
             command.Connection = connection;

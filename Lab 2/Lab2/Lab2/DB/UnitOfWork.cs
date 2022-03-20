@@ -1,5 +1,6 @@
 ﻿using Lab2.DB.Impl;
 using Microsoft.Data.SqlClient;
+using Oracle.ManagedDataAccess.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,10 +9,45 @@ using System.Threading.Tasks;
 
 namespace Lab2.DB
 {
+
+
+    class DBUtils
+    {
+        public static OracleConnection GetDBConnectionBuilder(string host, int port, String sid, String user, String password)
+        {
+
+            Console.WriteLine("Getting Connection ...");
+
+            // Connection String для прямого подключения к Oracle.
+            string connString = "Data Source=(DESCRIPTION =(ADDRESS = (PROTOCOL = TCP)(HOST = "
+                 + host + ")(PORT = " + port + "))(CONNECT_DATA = (SERVER = DEDICATED)(SERVICE_NAME = "
+                 + sid + ")));Password=" + password + ";User ID=" + user;
+
+
+            OracleConnection conn = new OracleConnection();
+
+            conn.ConnectionString = connString;
+
+            return conn;
+        }
+
+        public static OracleConnection GetDBConnection()
+        {
+            string host = "localhost";
+            int port = 1521;
+            string sid = "orcl";
+            string user = "C##migration";
+            string password = "migration";
+
+            return GetDBConnectionBuilder(host, port, sid, user, password);
+        }
+    }
+
     class UnitOfWork : IDisposable
     {
-        private SqlConnection connection = new SqlConnection(@"Server=localhost;Database=TRANS;Trusted_Connection=True;");     
-        
+        private SqlConnection connection = new SqlConnection(@"Server=localhost;Database=TRANS;Trusted_Connection=True;");
+        private OracleConnection connectionOracle = DBUtils.GetDBConnection();
+
 
         private OrderRepository orderRepository;
         private CityRepository cityRepository;
@@ -20,6 +56,18 @@ namespace Lab2.DB
         private ServiceRepository serviceRepository;
         private ServiceTypeRepository serviceTypeRepository;
 
+        private OrderRepositoryOracle orderRepositoryOracle;
+
+
+        public OrderRepositoryOracle OrderRepositoryOracle
+        {
+            get
+            {
+                if (orderRepositoryOracle == null)
+                    orderRepositoryOracle = new OrderRepositoryOracle(connectionOracle);
+                return orderRepositoryOracle;
+            }
+        }
 
         public OrderRepository OrderRepository
         {

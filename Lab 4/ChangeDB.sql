@@ -27,10 +27,4 @@ go
 alter table City
 	add City_Addr int constraint CADDR_ID_FK foreign key references cityCoord(Id);
 
-go
-alter table CANDIDATE
-	add Place int constraint COFFICE_ID_FK foreign key references MAP(Id);
 
-go
-alter table WORKER
-	add Place int constraint WOFFICE_ID_FK foreign key references MAP(Id);

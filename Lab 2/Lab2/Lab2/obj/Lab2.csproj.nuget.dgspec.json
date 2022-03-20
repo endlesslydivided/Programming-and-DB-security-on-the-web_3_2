@@ -70,6 +70,10 @@
               "target": "Package",
               "version": "[14.0.1016.290, )"
             },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.50, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
               "version": "[4.8.3, )"

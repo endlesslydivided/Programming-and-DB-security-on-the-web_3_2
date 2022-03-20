@@ -14,7 +14,7 @@ select * from Geo;
 
 go
 declare @Id hierarchyid  
-select @Id = MAX(Level) from Geo where Level.GetAncestor(1) = hierarchyid::GetRoot() ; 
+select @Id = MAX(Level) from Geo where Level.GetAncestor(1) = hierarchyid::GetRoot(); 
 insert into Geo values(hierarchyid::GetRoot().GetDescendant(@id, null), 'France', 'Country');
 
 go
