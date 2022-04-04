@@ -1,5 +1,6 @@
 ﻿using Lab2.DB.Impl;
 using Microsoft.Data.SqlClient;
+using Microsoft.Data.Sqlite;
 using Oracle.ManagedDataAccess.Client;
 using System;
 using System.Collections.Generic;
@@ -47,7 +48,8 @@ namespace Lab2.DB
     {
         private SqlConnection connection = new SqlConnection(@"Server=localhost;Database=TRANS;Trusted_Connection=True;");
         private OracleConnection connectionOracle = DBUtils.GetDBConnection();
-
+        private SqliteConnection connectionSQLite = new SqliteConnection(@"Data Source=D:\ALEX\STUDY\6SEM_3COURSE\Программирование и безопасность баз данных web-приложений\Готовые лабораторные\Lab 11\TRANS.db;");
+        
 
         private OrderRepository orderRepository;
         private CityRepository cityRepository;
@@ -58,6 +60,18 @@ namespace Lab2.DB
 
         private OrderRepositoryOracle orderRepositoryOracle;
 
+        private OrderRepositorySQLite orderRepositorySQLLite;
+
+
+        public OrderRepositorySQLite OrderRepositorySQLLite
+        {
+            get
+            {
+                if (orderRepositorySQLLite == null)
+                    orderRepositorySQLLite = new OrderRepositorySQLite(connectionSQLite);
+                return orderRepositorySQLLite;
+            }
+        }
 
         public OrderRepositoryOracle OrderRepositoryOracle
         {

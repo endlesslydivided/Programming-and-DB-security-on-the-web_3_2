@@ -19,7 +19,8 @@ namespace Lab2
                     Console.WriteLine("1 - CRUD");
                     Console.WriteLine("2 - пространственные данные");
                     Console.WriteLine("3 - CRUD ORACLE");
-                    Console.WriteLine("4 - выход");
+                    Console.WriteLine("4 - CRUD SQLite");
+                    Console.WriteLine("5 - выход");
                     if (!int.TryParse(Console.ReadLine(), out p))
                     {
                         Console.WriteLine("Неверный ввод");
@@ -141,6 +142,56 @@ namespace Lab2
                                 }
                             }
                         case 4:
+                            {
+                                using (UnitOfWork unit = new UnitOfWork())
+                                {
+                                    Order order = unit.OrderRepositorySQLLite.Get(215);
+
+                                    unit.OrderRepositorySQLLite.PrintTableHeader();
+                                    unit.OrderRepositorySQLLite.PrintRow(order);
+
+                                    List<Order> orders = unit.OrderRepositorySQLLite.GetAll();
+                                    unit.OrderRepositorySQLLite.PrintTableHeader();
+                                    foreach (Order x in orders)
+                                    {
+                                        unit.OrderRepositorySQLLite.PrintRow(x);
+                                    }
+
+                                    unit.OrderRepositorySQLLite.Insert(new Order("Бабушкина Крынка", 8, 100, new DateTime(2019, 1, 1, 13, 00, 00), new DateTime(2019, 1, 3, 13, 50, 00)));
+
+                                    orders = unit.OrderRepositorySQLLite.GetAll();
+                                    unit.OrderRepositorySQLLite.PrintTableHeader();
+                                    foreach (Order x in orders)
+                                    {
+                                        unit.OrderRepositorySQLLite.PrintRow(x);
+                                    }
+
+                                    if (order != null)
+                                    {
+                                        order.ServiceId = 18;
+                                        unit.OrderRepositorySQLLite.Update(order);
+                                        order = unit.OrderRepositorySQLLite.Get(215);
+                                        unit.OrderRepositorySQLLite.PrintTableHeader();
+                                        unit.OrderRepositorySQLLite.PrintRow(order);
+                                    }
+
+                                    unit.OrderRepositorySQLLite.Delete(184);
+
+                                    orders = unit.OrderRepositorySQLLite.GetAll();
+                                    unit.OrderRepositorySQLLite.PrintTableHeader();
+                                    foreach (Order x in orders)
+                                    {
+                                        unit.OrderRepositorySQLLite.PrintRow(x);
+                                    }
+
+                                    unit.OrderRepositorySQLLite.Execute("SELECT * FROM NumberRouteOrders");
+                                    unit.OrderRepositorySQLLite.ExecuteTran();
+
+                                    Console.ReadKey();
+                                    break;
+                                }
+                            }
+                        case 5:
                             {
                                 return;
                             }

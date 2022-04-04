@@ -19,7 +19,7 @@ from (SELECT A.CustomerName 'Заказчик', B.RouteName 'Название м
 	(SELECT RouteName from Route) as B on A.RouteName = B.RouteName)
 	Group By A.CustomerName , B.RouteName) as final where Заказчик is not null
 FOR XML AUTO);
-SELECT @x
+SELECT @x;
 
 go
 execute generateXML;
