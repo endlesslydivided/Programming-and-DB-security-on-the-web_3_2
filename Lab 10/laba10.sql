@@ -31,7 +31,6 @@ EXEC us_proc_GetTableTrans;
 
 USE MASTER;
 
-
 CREATE SERVER AUDIT TableTransAudit
 TO FILE
 (
@@ -42,7 +41,7 @@ WITH (QUEUE_DELAY = 1000, ON_FAILURE = CONTINUE);
 
 alter server audit TableTransAudit with ( state = on );
 
-select * from fn_get_audit_file( 'D:\ALEX\STUDY\6SEM_3COURSE\Программирование и безопасность баз данных web-приложений\Готовые лабораторные\Lab 10\TableTransAudit_B30F7C12-8DA1-4F4B-B831-36A664DC77E6_0_132927811897550000.sqlaudit', null, null ) order by event_time desc,sequence_number
+select * from fn_get_audit_file( 'D:\ALEX\STUDY\6SEM_3COURSE\Программирование и безопасность баз данных web-приложений\Готовые лабораторные\Lab 10\TableTransAudit_4F715012-85DF-4995-B8CD-0A9F9B2A54B2_0_132935368672480000.sqlaudit', null, null ) order by event_time desc,sequence_number
 
 --7.Создать необходимые объекты аудита.
 --8.Задать для аудита необходимые спецификации.
@@ -53,12 +52,11 @@ CREATE DATABASE AUDIT SPECIFICATION Specification_TableTransAudit
 FOR SERVER AUDIT TableTransAudit
 add ( select on object::[dbo].City by [public]);
 
-select * from city;
+select * from dbo.City;
 alter database AUDIT SPECIFICATION Specification_TableTransAudit with (state = on);
 
 --10.Остановить аудит БД и сервера
 GO
-
 alter server audit TableTransAudit with ( state = off );
 alter database AUDIT SPECIFICATION Specification_TableTransAudit with (state = off);
 
